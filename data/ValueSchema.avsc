@@ -1,0 +1,34 @@
+{
+    "namespace": "example.avro",
+    "type": "record",
+    "name": "User",
+    "fields": [
+      {
+        "name": "RollNumber",
+        "type": "string"
+      },
+      {
+        "name": "ApplicantName",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      {
+        "name": "SessionName",
+        "type": "string"
+      },
+      {
+        "name": "CW1",
+        "type": "int"
+      },
+      {
+        "name": "CW2",
+        "type": "int"
+      },  {
+        "name": "ESE",
+        "type": "int"
+      }
+    ]
+  }
+  
