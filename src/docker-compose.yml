@@ -50,7 +50,7 @@ services:
     depends_on:
       - zookeeper
 
-  web:
+  proxy:
     build: proxy-server
     depends_on:
       - kafka
