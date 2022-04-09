@@ -37,7 +37,7 @@ Thu thập và phân tích hoạt động học tập của người học trên
 
 - Slide: [https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212/blob/master/slide.pdf](https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212/blob/master/slide.pdf)
 
-- Báo cáo:
+- Báo cáo: [https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212/blob/master/report.pdf](https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212/blob/master/report.pdf)
 
 # Thành viên
 Nhóm nghiên cứu đến từ Đại Học Bách Khoa TPHCM (HCMUT)
