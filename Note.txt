@@ -1,0 +1,10 @@
+Đường link dẫn đến github của nhóm : https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212
+
+Folder data chứa data của nhóm, lấy nguồn từ https://zenodo.org/record/5591907#.YiSRLehBy5c
+
+Folder src bao gồm 2 phần: 
+ - docker : chứa config trên docker và source dùng để streaming data từ Moodle về Kafka.
+ - src: Bao gồm code kafka và spark trên jupyter notebook.
+
+Phần slide và báo cáo của nhóm được gửi kèm trong file zip.
+Source code đang được hoàn thiện và update trong thời gian tiếp theo.
