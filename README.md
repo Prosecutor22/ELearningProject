@@ -1,6 +1,4 @@
-# 1. Giới thiệu về đề tài
- 
-### Nội dung đề tài
+# Giới thiệu đề tài
  
 - Giáo dục 4.0 và chuyển đổi số giáo dục đang là một mô hình giáo dục thông minh và có những
 thay đổi rất lớn trong công tác giáo dục ở Việt Nam nói riêng và cả thế giới nói chung.
@@ -15,14 +13,14 @@ của người học, các hoạt động trên hệ thống Learning Mangament 
 dựng các đánh giá hiệu quả của người học trên các khóa học và dự đoán kết quả của người học nhằm 
 cung cấp cho nhà quản lý nhà trường và khoa góc nhìn về toàn cục
  
-### Nội dung đề tài
+# Nội dung đề tài
  
 Thu thập và phân tích hoạt động học tập của người học trên các Learning Management System (LMS)
 - Giáo dục 4.0 và chuyển đổi số giáo dục yêu cầu kết hợp từ LMS như Moodle, các phần mềm hỗ trợ học trực tuyến trên các thiết bị thông minh (smart devices) như smartphones, tablets, Internet Tivi,…. Hệ thống E-Learning như **BKeL** có nguồn học liệu mở, bài tập tương tác, Quiz, Interactive videos, Video meeting, Virtual Lab, v.v..
 - Đề tài phát triển kiến trúc phần lõi thu gom dữ liệu của người học, các hoạt động trên hệ thống Learning Mangament System (LMS) là **Moodle**. Xây dựng các đánh giá hiệu quả của người học trên các khóa học và dự đoán kết quả của người học (dựa trên lịch sử), Cung cấp cho nhà quản lý nhà trường & khoa góc nhìn về toàn cục. Phần này độc lập với các hệ thống LMS.
 - Có sử dụng kiến thức về dữ liệu lớn, trí tuệ nhân tạo, Data Lake.
  
-### Kiến thức liên quan
+# Kiến thức liên quan
  
 - Tìm hiểu về LMS như Moodle.
 - Tìm hiểu về Kafka, Spark
@@ -31,12 +29,23 @@ Thu thập và phân tích hoạt động học tập của người học trên
 - Cung cấp thông tin để giáo viên có thể thực hiện như liên hệ trực tiếp với học sinh, chỉ định nội dung đặc biệt, khuyến khích tham gia hoặc cung cấp dịch vụ dạy kèm đặc biệt.
 - Giúp HS/SV có thể tìm hiểu về hiệu suất của mình, cá nhân và so sánh với nhóm.
 
-### Kết quả đạt được
+# Kết quả đạt được
 - Đề cương đề xuất mô hình thu gom dữ liệu
 - Mô hình đánh giá người học, phát hiện học sinh trung bình/yếu, dự đoán kết quả học tập của người học.
 
-# 2. Learning Management System (LMS)
+# Nội dung nghiên cứu
 
-# 3. Kafka
+Slide: 
+Báo cáo:
 
-# 4. Spark
+# Thành viên
+Nhóm nghiên cứu đến từ Đại Học Bách Khoa TPHCM (HCMUT)
+
+Giảng viên hướng dẫn: 
+- TS.Trần Quang Hùng
+
+Sinh viên:
+- Nguyễn Duy Khang - 2011364
+- Phan Phước Minh - 2010418       
+- Nguyễn Đức An - 2010102    
+- Đoàn Trần Cao Trí - 2010733
