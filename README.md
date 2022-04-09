@@ -34,3 +34,9 @@ Thu thập và phân tích hoạt động học tập của người học trên
 ### Kết quả đạt được
 - Đề cương đề xuất mô hình thu gom dữ liệu
 - Mô hình đánh giá người học, phát hiện học sinh trung bình/yếu, dự đoán kết quả học tập của người học.
+
+# 2. Learning Management System (LMS)
+
+# 3. Kafka
+
+# 4. Spark
