@@ -13,7 +13,7 @@ def statements():
     logging.info("Received statements")
     statements = request.get_data()
     global producer
-    producer.send("saturday test", statements)
+    producer.send("saturday-test", statements)
     return "Okay"
 
 
