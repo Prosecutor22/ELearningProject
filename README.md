@@ -35,7 +35,8 @@ Thu thập và phân tích hoạt động học tập của người học trên
 
 # Nội dung nghiên cứu
 
-Slide: 
+Slide: [https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212/blob/master/slide.pdf](https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212/blob/master/slide.pdf)
+
 Báo cáo:
 
 # Thành viên
