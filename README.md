@@ -44,7 +44,7 @@ Nhóm nghiên cứu đến từ Đại Học Bách Khoa TPHCM (HCMUT)
 Giảng viên hướng dẫn: 
 - TS.Trần Quang Hùng
 
-Sinh viên:
+Sinh viên thực hiện:
 - Nguyễn Duy Khang - 2011364
 - Phan Phước Minh - 2010418       
 - Nguyễn Đức An - 2010102    
