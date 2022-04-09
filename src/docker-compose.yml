@@ -55,11 +55,6 @@ services:
     depends_on:
       - kafka
 
-  client:
-    build: consumer-client
-    depends_on:
-      - kafka
-
 volumes:
   mariadb_data:
     driver: local
