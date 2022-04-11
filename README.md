@@ -43,7 +43,7 @@ Thu thập và phân tích hoạt động học tập của người học trên
 Nhóm nghiên cứu đến từ Đại Học Bách Khoa TPHCM (HCMUT)
 
 Giảng viên hướng dẫn: 
-- TS.Trần Quang Hùng
+- TS.Nguyễn Quang Hùng
 
 Sinh viên thực hiện:
 - Nguyễn Duy Khang - 2011364
