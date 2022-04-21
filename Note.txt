@@ -1,10 +1,13 @@
-Đường link dẫn đến github của nhóm : https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212
+Đường link dẫn đến github của nhóm : https://github.com/anduc146khmt/ELearningProject
 
-Folder data chứa data của nhóm, lấy nguồn từ https://zenodo.org/record/5591907#.YiSRLehBy5c
+Folder data chứa data của nhóm, lấy nguồn từ https://zenodo.org/record/5591907#.YiSRLehBy5c 
+Và nguồn data của các sinh viên trường ĐH Bách Khoa (HCMUT) được thầy Hùng cung cấp.
 
-Folder src bao gồm 2 phần: 
- - docker : chứa config trên docker và source dùng để streaming data từ Moodle về Kafka.
- - src: Bao gồm code kafka và spark trên jupyter notebook.
+Folder src bao gồm 3 phần, tương ứng 3 giai đoạn của dự án: 
+ - KafkaConsumertoMongoDB: đang update, tạm thời bao gồm 2 file jupyter notebook consumer.ipynb và producer.ipynb.
+ - MongoDBandSparkAnalyze: gồm pysparkProcessingData.ipynb và ReadDataFromMongoDBtoSpark.ipynb.
+ - MoodleKafkaProducer: gồm source code implement producer để gửi dữ liệu từ Moodle qua Kafka.
 
 Phần slide và báo cáo của nhóm được gửi kèm trong file zip.
+
 Source code đang được hoàn thiện và update trong thời gian tiếp theo.
