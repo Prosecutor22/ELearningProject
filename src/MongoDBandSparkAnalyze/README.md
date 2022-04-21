@@ -3,6 +3,7 @@ Requirement for using MongoDB and Spark:
   2. Scala (sugguest scala 2)
   3. MongoDB (sugguest 4.4)
   5. MongoDB-spark-connector, use can download [here] (https://www.mongodb.com/docs/spark-connector/master/)
+  6. Spark version >= 3 with Hadoop >= 2.7
 
 First, you must check your MongoDB status & collection by go to MongoDB's local location and run this command:
 ```bash
