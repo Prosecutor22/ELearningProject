@@ -19,4 +19,4 @@ def statements():
 
 producer = KafkaProducer(bootstrap_servers="kafka:9092")
 if __name__ == "__main__":
-    app.run(debug=True, port=int(sys.argv[1]))
+    app.run(debug=True, host='0.0.0.0', port=int(sys.argv[1]))
