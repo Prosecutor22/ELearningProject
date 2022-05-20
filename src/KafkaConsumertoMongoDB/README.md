@@ -26,8 +26,17 @@ After that, It will generate for you logs about interaction of user in Moddle. R
 
 In sample logs, we generate 14 logs. It means that user interact 14 activities with Moodle.
 
-And these logs will be streamed to MongoDB and turn to Spark to analyst.
+And these logs will be streamed to MongoDB in next steps.
+
+```bash
+   cd C:\Program Files\MongoDB\Server\5.0\bin
+```
 
 ```bash
 mongoimport --jsonArray --db test --collection docs --file filename.json
+```
+
+```bash
+for %i in (C:\foldername\*) do 
+    mongoimport --file %i --type json --db mydb --collection mycollection
 ```
