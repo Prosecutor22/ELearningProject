@@ -24,6 +24,6 @@ Run **preprocessing.py**:
 ```
 After that, It will generate for you logs about interaction of user in Moddle. Remember that, each log is a interaction of user.
 
-In sample logs, we have 14 logs. 
+In sample logs, we generate 14 logs. It means that user interact 14 activities with Moodle.
 
 And these logs will be streamed to MongoDB and turn to Spark to analyst.
