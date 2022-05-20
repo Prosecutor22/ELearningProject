@@ -5,7 +5,7 @@ Run:
 ```bash
    cd KafkaConsumertoMongoDB
 ```
-Instead of print the logs output the terminal, we will write data generated from user activities in Moodle to file **logs.txt**
+Instead of printing the logs output the terminal, we will write data generated from user activities in Moodle to file **log.txt**
 
 ```bash
 $ docker run -it --rm \
@@ -13,7 +13,7 @@ $ docker run -it --rm \
     -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181 \
     bitnami/kafka:3.1 kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic saturday-test --from-beginning > logs.txt
 ```
-After that, we want to extract logs as a json files. But a problem is that the data in logs.txt is not formatted in json type. 
+After that, we want to extract logs as a json files. But a problem is that the data in log.txt is not formatted in json type. 
 
 Therefore, we have to preprocessing data to multiple logs that each blog is one action that user interact in Moddle.
 
