@@ -28,6 +28,7 @@ In sample logs, we generate 14 logs. It means that user interact 14 activities w
 
 And these logs will be streamed to MongoDB in next steps.
 
+Giả sử chúng ta sẽ tạo một database tên là **data**, và collection cũng tên là **data**
 ```bash
    cd C:\Program Files\MongoDB\Server\5.0\bin
 ```
