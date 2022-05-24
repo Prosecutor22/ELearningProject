@@ -1,5 +1,5 @@
 index = 1
-with open('log.txt') as infile:
+with open('logs.txt') as infile:
    for line in infile:
         line = line.replace('\n', '')
         if(line in ['[]', '', ' '] or (not line.startswith('['))):
