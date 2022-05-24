@@ -19,3 +19,7 @@ Chương trình sẽ thực hiện các đoạn code sau: </br>
 - Gọi hàm dự đoán
   + Nếu là lần đầu gọi model mã môn học thì chương trình sẽ load model từ gdrive
   + Ngược lại sẽ đưa ra dự đoán
+
+**Kết quả đạt được**:</br>
+Hiệu quả xây dựng model của mỗi tập dữ liệu (50MB) chứa 500000 đối tượng là khoảng 45 phút.
+Kết quả dự đoán với độ chính xác cao.
