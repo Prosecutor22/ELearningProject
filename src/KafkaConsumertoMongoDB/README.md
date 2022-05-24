@@ -5,15 +5,12 @@ Run:
 ```bash
    cd KafkaConsumertoMongoDB
 ```
-Instead of printing the logs output the terminal, we will write data generated from user activities in Moodle to file **log.txt**
+Instead of printing the logs output the terminal, we will write data generated from user activities in Moodle to file **logs.txt**
 
 ```bash
-$ docker run -it --rm \
-    --network moodlekafkaproducer_default \
-    -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181 \
-    bitnami/kafka:3.1 kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic saturday-test --from-beginning > log.txt
+   $ docker run -it --rm --network moodlekafkaproducer_default -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181 bitnami/kafka:3.1 kafka-console-consumer.sh --      bootstrap-server kafka:9092 --topic saturday-test --from-beginning > logs.txt
 ```
-After that, we want to extract logs as a json files. But a problem is that the data in log.txt is not formatted in json type. 
+After that, we want to extract logs as a json files. But a problem is that the data in logs.txt is not formatted in json type. 
 
 Therefore, we have to preprocessing data to multiple logs that each blog is one action that user interact in Moddle.
 
@@ -28,16 +25,16 @@ In sample logs, we generate 14 logs. It means that user interact 14 activities w
 
 And these logs will be streamed to MongoDB in next steps.
 
-Giả sử chúng ta sẽ tạo một database tên là **data**, và collection cũng tên là **data**
+Giả sử chúng ta sẽ tạo một database tên là **data**, và collection tên là **dataCollection**
 ```bash
    cd C:\Program Files\MongoDB\Server\5.0\bin
 ```
 
 ```bash
-mongoimport --jsonArray --db test --collection docs --file filename.json
+mongoimport --db data --collection dataCollection --file <path>.json
 ```
 
 ```bash
 for %i in (C:\foldername\*) do 
-    mongoimport --file %i --type json --db mydb --collection mycollection
+    mongoimport --file %i --type json --db data --collection dataCollection
 ```
