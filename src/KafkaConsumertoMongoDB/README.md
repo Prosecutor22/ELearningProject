@@ -8,7 +8,7 @@ Run:
 Instead of printing the logs output the terminal, we will write data generated from user activities in Moodle to file **logs.txt**
 
 ```bash
-docker run -it --rm --network moodlekafkaproducer_default -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181 bitnami/kafka:3.1 kafka-console-consumer.sh --      bootstrap-server kafka:9092 --topic saturday-test --from-beginning > logs.txt
+docker run -it --rm --network moodlekafkaproducer_default -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181 bitnami/kafka:3.1 kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic saturday-test --from-beginning > logs.txt
 ```
 After that, we want to extract logs as a json files. But a problem is that the data in logs.txt is not formatted in json type. 
 
