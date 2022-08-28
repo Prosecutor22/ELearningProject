@@ -1,5 +1,9 @@
+# ELearningProject
+
+- Đây là đề tài mở rộng cho chương trình Kỹ Sư Tài Năng ĐH Bách Khoa TPHCM môn Hệ Điều Hành HK212 
+
 # Giới thiệu đề tài
- 
+
 - Giáo dục 4.0 và chuyển đổi số giáo dục đang là một mô hình giáo dục thông minh và có những
 thay đổi rất lớn trong công tác giáo dục ở Việt Nam nói riêng và cả thế giới nói chung.
 - Càng thiết thực hơn nữa, trong giai đoạn giãn cách xã
