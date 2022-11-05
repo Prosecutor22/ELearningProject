@@ -37,12 +37,6 @@ Thu thập và phân tích hoạt động học tập của người học trên
 - Đề cương đề xuất mô hình thu gom dữ liệu
 - Mô hình đánh giá người học, phát hiện học sinh trung bình/yếu, dự đoán kết quả học tập của người học.
 
-# Nội dung nghiên cứu
-
-- Slide: [https://github.com/anduc146khmt/ELearningProject/blob/master/Slide.pdf](https://github.com/anduc146khmt/E-LearningProject_KSTN_HK212/blob/master/Slide.pdf)
-
-- Báo cáo:  [https://github.com/anduc146khmt/ELearningProject/blob/master/Report.pdf](https://github.com/anduc146khmt/ELearningProject/blob/master/Report.pdf)
-
 # Thành viên
 Nhóm nghiên cứu đến từ Đại Học Bách Khoa TPHCM (HCMUT)
 
